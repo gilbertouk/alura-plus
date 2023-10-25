@@ -23,6 +23,8 @@ body {
   background-image: url('./image/Background.png');
   background-repeat: no-repeat;
   background-size: contain;
+  align-items: center;
+  text-align: center;
 }
 
 .container {
@@ -43,6 +45,7 @@ body {
   color: var(--primary-color);
   display: block;
   text-decoration: none;
+  margin-bottom: 1em;
 }
 
 .container__button__second {
@@ -53,4 +56,12 @@ body {
 .container__text {
   color: var(--second-color);
   font-size: 12px;
+}
+
+.container__image {
+  margin: 1em 0 2em 0;
+}
+
+.container__box {
+  margin: 0 6em;
 }
