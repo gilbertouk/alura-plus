@@ -8,7 +8,7 @@ _This repository was used to document my learning of HTML and CSS acquired throu
 
 <p>A demo of the website developed during the course in HTML and CSS is available.</p>
 
-[demo](https://cursos.alura.com.br/course/html-css-praticando-html-css)
+[demo](https://html-css-alura-plus.vercel.app/)
 
 ### About the course
 
