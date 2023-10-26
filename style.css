@@ -4,6 +4,7 @@
   --background-color: #00030c;
   --blue-button: #167bf7;
   --primary-font: 'Inter';
+  --blue-button-hover: #3c92fa;
 }
 
 * {
@@ -84,4 +85,71 @@ body {
 
 .container__description__text {
   color: var(--second-color);
+}
+
+.container__button__secondary {
+  display: inline-block;
+  margin-top: 1em;
+}
+
+.container__description {
+  padding: 2em;
+}
+
+.devices__list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 5em 0;
+}
+
+.devices {
+  text-align: center;
+}
+
+.devices__title {
+  font-size: 48px;
+  color: var(--primary-color);
+}
+
+.devices__list__item {
+  font-size: 32px;
+  color: var(--primary-color);
+}
+
+.footer {
+  text-align: center;
+  margin: 5em 3em;
+}
+
+.footer__list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin-top: 1em;
+}
+
+.footer__list__link {
+  color: var(--primary-color);
+  text-decoration: none;
+  margin-left: 1em;
+}
+
+.footer__list__link:hover {
+  color: var(--blue-button);
+}
+
+.footer__list__link:active {
+  color: purple;
+}
+
+.footer__text {
+  margin: 1em 0;
+  font-size: 14px;
+  color: var(--second-color);
+}
+
+.container__button:hover {
+  background-color: var(--blue-button-hover);
+  color: var(--background-color);
 }
