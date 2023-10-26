@@ -19,7 +19,7 @@ body {
   font-weight: 400;
 }
 
-.image {
+.primary {
   background-image: url('./image/Background.png');
   background-repeat: no-repeat;
   background-size: contain;
@@ -58,10 +58,30 @@ body {
   font-size: 12px;
 }
 
-.container__image {
+.primary__image {
   margin: 1em 0 2em 0;
 }
 
 .container__box {
   margin: 0 6em;
+}
+
+.secondary__image {
+  width: 80%;
+}
+
+.secondary {
+  align-items: center;
+  margin: 0 10em;
+}
+
+.container__description__title {
+  font-weight: 700;
+  font-size: 48px;
+  color: var(--primary-color);
+  margin-bottom: 0.1em;
+}
+
+.container__description__text {
+  color: var(--second-color);
 }
