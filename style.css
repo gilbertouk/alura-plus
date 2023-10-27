@@ -153,3 +153,35 @@ body {
   background-color: var(--blue-button-hover);
   color: var(--background-color);
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: block;
+    background-image: none;
+  }
+
+  .primary__image {
+    width: 50%;
+  }
+
+  .container__box {
+    margin: 2em 2em;
+  }
+
+  .secondary {
+    margin: 0;
+    text-align: center;
+  }
+
+  .secondary__image {
+    width: 50%;
+  }
+
+  .devices__list {
+    display: block;
+  }
+
+  .footer__list {
+    display: block;
+  }
+}
