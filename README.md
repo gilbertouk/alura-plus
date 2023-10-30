@@ -14,7 +14,7 @@ _This repository was used to document my learning of HTML and CSS acquired throu
 
 <p>The course is divided into 5 modules, below I describe a little of what I learned in each module.</p>
 
-#### In the first module "Starting the project", I learned:
+### In the first module "Starting the project", I learned:
 
 - Create the project folder and HTML and CSS files on your computer, as well as open the folder in the code editor;
 - Write the base code of the HTML file, using the tags that make up the basic structure of this type of file;
